@@ -1,7 +1,7 @@
 site:
-  title: codeless
+  title: Vision3
   title_separator: •
-  description: 'Write less code, solve more problems'
+  description: 'Formation e-learning spécialisé dans la sécurité et la santé des entreprises'
   i18n: fr
   geo:
     placename: 'Lille, Nord'
