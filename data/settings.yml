@@ -7,6 +7,9 @@ site:
     placename: 'Lille, Nord'
     position: 50.629250;3.057256
     region: FR-59
-  url: 'https://github.com/flexbox/codeless'
-  logo: 'https://raw.githubusercontent.com/flexbox/codeless/master/source/favicon_base.png'
+  url: 'http://www.vision3.fr'
+  logo: 'https://raw.githubusercontent.com/hcopnico/vision3.fr/master/source/favicon_base.png'
   author: David Leuliette
+
+social:
+  twitter: ''
