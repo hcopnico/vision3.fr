@@ -1,13 +1,11 @@
 {
-  "name": "codeless",
-  "version": "0.0.1",
-  "homepage": "https://github.com/flexbox/codeless",
+  "name": "vision3.fr",
+  "homepage": "https://github.com/hcopnico/vision3.fr",
   "authors": [
     "flexbox <dleuliette@gmail.com>"
   ],
-  "description": "Middleman starter template with Sass, slim and CoffeeScript. Based on ruby on rails architecture.",
-  "license": "GNU/GPL",
-  "private": false,
+  "description": "Middleman website for vision3",
+  "private": true,
   "ignore": [
     "**/.*",
     "node_modules",

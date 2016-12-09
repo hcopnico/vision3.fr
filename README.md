@@ -1,16 +1,4 @@
-<img src="https://raw.githubusercontent.com/flexbox/codeless/master/source/assets/images/codeless-middleman.jpg" alt="Middleman advanced template" align="center" />
-<br />
-
-<div align="center"><strong>Start your next Middleman project in seconds</strong></div>
-<div align="center">A highly scalable, rails ready foundation with the best DX and a focus on SEO & best practices.</div>
-<br />
-<div align="center">
-
-<a href="https://travis-ci.org/flexbox/codeless">
-  <img src="https://travis-ci.org/flexbox/codeless.svg?branch=master" alt="Build Status">
-</a>
-</div>
-<br />
+# Vision3.fr
 
 ###### Preprocessing
 - [Slim](http://slim-lang.com) *[for html]*
@@ -67,7 +55,9 @@ Vendor stylesheets and JavaScripts should go in each of their `/bower_components
     middleman deploy
     
 Note :
+
 - If you get an error with `middleman build`, make sure [Imagemagik](http://www.imagemagick.org/script/index.php) is installed `brew install imagemagick`
+
 - If you deploy on Github pages, don't forget to uncomment these two lines in `config.rb` :
 
     activate :relative_assets
@@ -78,7 +68,3 @@ Note :
 | [![twitter/_flexbox](https://gravatar.com/avatar/66ecc55f1bc2e5863eb516ee6f20794e?s=70)](https://twitter.com/_flexbox "Follow @_flexbox on Twitter") |
 |---|
 | [David Leuliette](http://davidl.fr/) |
-
-## License
-
-This project is free software, and may be redistributed under [GNU/GPL license](LICENSE.md).
