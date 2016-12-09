@@ -13,16 +13,9 @@
 - [Middleman Live Reload](https://github.com/middleman/middleman-livereload) *[Reloads the page when files change]*
 
 ## Getting Started
-    
-### Dependencies
-
-You need [Bundler](http://bundler.io/) to install gems
-
-    $ gem install bundler
-
-Then, install them
 
     $ bundle install
+    $ bower install
 
 ### Bower
 
