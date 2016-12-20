@@ -1,0 +1,8 @@
+---
+about.html.slim: "/about.html.slim"
+contact.html.slim: "/contact.html.slim"
+elearning.html.slim: "/elearning.html.slim"
+index.html.slim: "/index.html.slim"
+sitemap.html.slim: "/sitemap.html.slim"
+start.html.slim: "/start.html.slim"
+work.html.slim: "/work.html.slim"
