@@ -1,17 +1,22 @@
 ---
 title: elarning
 description: ''
-twitter_card_img: ''
 ---
 
 .row.text-center
   .medium-12.columns
     h1 Création de contenus pédagogiques interactifs sur mesure
 
-    h2 Notre expertise
+    h2 Expertise
     hr
 
-    h2 Notre méthode
+    h2 Méthode
     hr
 
-    h2 Nos clients & partenaires
+    .row.align-center
+      .medium-8.columns
+        h2 Clients & partenaires
+        p Nous sommes reconnus pour notre réactivité et capacité à proposer des solutions.
+        - data.clients.each do |client|
+          = image_tag "clients/#{client.picture}", alt: "Logo #{client.name} client chez Vision3", class: 'thumbnail'
+

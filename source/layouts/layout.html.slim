@@ -6,11 +6,18 @@ html lang="#{data.settings.site.i18n}"
     = partial 'views/commons/favicon'
     = stylesheet_link_tag 'application'
     = stylesheet_link_tag 'https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700'
+    = stylesheet_link_tag 'https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'
     = yield_content :head
 
   body class="#{page_classes}"
     = partial 'views/commons/topbar'
     == yield
+    .row
+      .columns
+        .callout.large
+          p Vous aimez notre travail ?
+          = link_to 'Soumettre votre projet', '/start'
+
     = partial 'views/commons/footer'
 
     = javascript_include_tag 'application'
