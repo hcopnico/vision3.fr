@@ -4,6 +4,22 @@ description: ''
 twitter_card_img: ''
 ---
 
-.row.align-center
+.row.align-center.text-center
   .medium-12.columns
-    h1 Contact
+    h1 Améliorons ensemble le quotidien de vos collègues
+
+.row
+  .medium-5.columns
+    h2 Work.
+    p We've prepared a simple project planner to get to know you and your project better.
+    = link_to 'Démarrer votre projet', '/start', class: 'button'
+  .medium-2.columns
+  .medium-5.columns
+    h2 Rencontre
+    p Questions, advice or just want to share some love? <br>We love compliments.
+    = mail_to 'Démarrer votre projet', data.settings.contact.email, class: 'button secondary'
+
+.text-center
+  h3
+    small> Téléphone
+    = data.settings.contact.phone

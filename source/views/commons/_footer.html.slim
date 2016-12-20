@@ -1,0 +1,14 @@
+footer.footer role="contentinfo"
+  .row
+    .columns
+      'Vision 3, Roubaix
+      ul
+        li
+          = link_to 'Contact & carte', '/contact'
+        li
+          = link_to 'Plan du site', '/sitemap.html'
+    .columns
+      '&copy; Copyright
+      time datetime="#{Date.today.strftime('%Y')}"
+        => Date.today.strftime('%Y')
+      'Vision3. Tous droits réservés.

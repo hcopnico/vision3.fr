@@ -1,5 +1,5 @@
 site:
-  title: Vision3
+  title: Vision 3
   title_separator: •
   description: 'Formation e-learning spécialisé dans la sécurité et la santé des entreprises'
   i18n: fr
@@ -9,7 +9,17 @@ site:
     region: FR-59
   url: 'http://www.vision3.fr'
   logo: 'https://raw.githubusercontent.com/hcopnico/vision3.fr/master/source/favicon_base.png'
+  twitter_card_img: ''
   author: David Leuliette
 
 social:
   twitter: ''
+
+contact:
+  phone: +33 3 20 46 57 95
+  email: hello@vision3.fr
+  adress:
+    name: La Lustrerie
+    street: 9 rue du Grand Chemin
+    postcode: 59100
+    town: Roubaix

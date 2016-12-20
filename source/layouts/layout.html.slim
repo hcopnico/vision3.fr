@@ -11,6 +11,7 @@ html lang="#{data.settings.site.i18n}"
   body class="#{page_classes}"
     = partial 'views/commons/topbar'
     == yield
+    = partial 'views/commons/footer'
 
     = javascript_include_tag 'application'
     = yield_content :javascripts
