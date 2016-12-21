@@ -8,6 +8,7 @@
 @include foundation-everything(true);
 
 @import 'atoms/typography';
-@import 'atoms/topbar';
 
+@import 'molecules/topbar';
 @import 'molecules/footer';
+@import 'molecules/sections';

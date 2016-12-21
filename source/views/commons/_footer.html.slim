@@ -1,15 +1,16 @@
-footer.footer role="contentinfo"
-  .row
-    .columns
-      'Vision 3, Roubaix
-      ul
-        li
-          = link_to 'Contact & carte', '/contact'
-        li
-          = link_to 'Plan du site', '/sitemap.html'
-    .columns.text-right
-      h3 = data.settings.contact.phone
-      '&copy; Copyright
-      time datetime="#{Date.today.strftime('%Y')}"
-        => Date.today.strftime('%Y')
-      'Vision3. Tous droits réservés.
+- unless page_classes == 'x404 x404_index'
+  footer.footer role="contentinfo"
+    .row
+      .columns
+        'Vision 3, Roubaix
+        ul
+          li
+            = link_to 'Contact & carte', '/contact'
+          li
+            = link_to 'Plan du site', '/sitemap.html'
+      .columns.text-right
+        h3 = data.settings.contact.phone
+        '&copy; Copyright
+        time datetime="#{Date.today.strftime('%Y')}"
+          => Date.today.strftime('%Y')
+        'Vision3. Tous droits réservés.

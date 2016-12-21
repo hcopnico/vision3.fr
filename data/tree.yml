@@ -1,4 +1,5 @@
 ---
+404.html.slim: "/404.html.slim"
 about.html.slim: "/about.html.slim"
 contact.html.slim: "/contact.html.slim"
 elearning.html.slim: "/elearning.html.slim"
