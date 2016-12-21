@@ -1,6 +1,6 @@
 ---
 title: Développer des Solutions e-learning sur Mesure
-description: 'Avec ses 10 ans d’expérience dans l’apprentissage en ligne, l’agence Vision3 partage son expertise dans la création de contenu vidéos pour des formations sur la santé et la sécurité au travail.'
+description: 'Avec ses 10 ans d’expérience dans l’apprentissage en ligne, Vision3 partage son expertise dans la création de contenu vidéos pour des formations'
 ---
 
 .row.text-center
@@ -30,4 +30,8 @@ description: 'Avec ses 10 ans d’expérience dans l’apprentissage en ligne, l
     h2 Notre équipe
     - data.team.each do |member|
       = image_tag "team/#{member.picture}", alt: "Photo de #{member.name} chez Vision3"
-      span = member.name
+      h3
+        => member.name
+        small = member.job
+      p = member.role
+      blockquote = member.fun

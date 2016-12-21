@@ -1,15 +1,21 @@
 -
   picture: julie.png
   name: Julie
-  quote: La formation c’est ma passion
+  job: Directrice
+  role: Chef de bande et commerciale j'acompagne les clients
+  fun: Chaque matin je fait du bon café pour la team
 -
   picture: alex.png
   name: Alexandre
-  quote: Je suis donc je vais
+  job: Analyste programmeur
+  role: M’occuper du bien-être d’ELISE
+  fun: Je suis le Maitre des Clés
 -
   picture: camille.png
   name: Camille
-  quote:
+  job: Chef de projet pédagogique
+  role: Organiser et accompagner nos clients dans leurs projets
+  fun: Je suis la maîtresse du planning
 -
   picture: nico.png
   name: Nicolas

@@ -11,6 +11,7 @@ site:
   logo: 'https://raw.githubusercontent.com/hcopnico/vision3.fr/master/source/favicon_base.png'
   twitter_card_img: 'https://github.com/hcopnico/vision3.fr/blob/master/source/assets/images/twitter-card.jpg?raw=true'
   author: David Leuliette
+  active_navigation_item_class: 'active'
 
 social:
   twitter: ''
