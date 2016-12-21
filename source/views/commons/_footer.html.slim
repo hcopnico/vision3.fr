@@ -8,6 +8,7 @@ footer.footer role="contentinfo"
         li
           = link_to 'Plan du site', '/sitemap.html'
     .columns.text-right
+      h3 = data.settings.contact.phone
       '&copy; Copyright
       time datetime="#{Date.today.strftime('%Y')}"
         => Date.today.strftime('%Y')

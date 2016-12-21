@@ -12,12 +12,7 @@ html lang="#{data.settings.site.i18n}"
   body class="#{page_classes}"
     = partial 'views/commons/topbar'
     == yield
-    .row
-      .columns
-        .callout.large
-          p Vous aimez notre travail ?
-          = link_to 'Soumettre votre projet', '/start', class: 'button'
-
+    = partial 'views/work-with-us'
     = partial 'views/commons/footer'
 
     = javascript_include_tag 'application'

@@ -1,6 +1,7 @@
 ---
-title: elarning
-description: ''
+title: Construire des experiences de formation interactive sur mesure
+description: "Vision3 est une entreprise spécialisé dans la formation en ligne avec sa plateforme LMS et un contenu pédagogique sur mesure"
+call_to_action: true
 ---
 
 .row
@@ -10,31 +11,69 @@ description: ''
 
     h2 Expertise
     hr
-    p Nous créons des contenus interactifs et digitaux. E-learning autonome ou accompagné, micro learning, quiz et autoévaluation, module interactif pour dynamiser le présentiel...
+    p Nous créons des contenus interactifs et digitaux. E-learning autonome ou accompagné, micro learning, quiz et autoévaluation, module interactif pour dynamiser le présentiel…
+
+
+    p Santé-sécurité au travail
+    p Réduisez les accidents de travail et améliorez le bien-être de vos collaborateurs et partenaires au quotidien.
 
     h3 Conception
+    .row
+      .columns
+        = image_tag 'conception-ingeneer.png', alt: 'Briefing digital learning'
+        h4 Brief
+        p Nous élaborons ensemble le cahier des charges de votre digital learning.
+      .columns
+        = image_tag 'conception-writing.png', alt: 'scenario de formation e-learning'
+        h4 Scénario
+        p Notre équipe rédige un scénario unique et personnalisé pour vos apprenants.
+      .columns
+        = image_tag 'conception-storyboard.png', alt: 'Briefing digital learning'
+        h4 Storyboard
+        p Des mots aux images, le storyboard traduit nos intentions graphiques et dynamiques écran par écran.
+
 
     h3 Production
-
+    .row
+      .columns
+        = image_tag 'production-picture.png', alt: 'Briefing digital learning'
+        h4 Photographe
+        p Nous utilisons vos photos ou celles réalisées lors de reportages sur site pour aider l’apprenant à se mettre en situation pendant sa formation
+      .columns
+        = image_tag 'production-computer.png', alt: 'Briefing digital learning'
+        h4 Infographiste
+        p Nous créons les animations et illustrations en adéquation avec votre culture et identité d'entreprise.
+      .columns
+        = image_tag 'production-movie.png', alt: 'Briefing digital learning'
+        h4 Cadreur
+        p La vidéo est un outil pédagogique majeur. Elle dynamise et immerge l'apprenant.
 
     h2 Méthode
     hr
+    markdown:
+      ### Nous créons vos outils d’accueil sécurité
 
-    .row.align-center
-      .medium-8.columns
-        h2 Clients & partenaires
-        p Nous sommes reconnus pour notre réactivité et capacité à proposer des solutions.
-        - data.clients.each do |client|
-          = image_tag "clients/#{client.picture}", alt: "Logo #{client.name} client chez Vision3", class: 'thumbnail'
+      - Présentation du site
+      - Principaux risques
+      - Obligation ou interdictions
+      - Consignes
+      - Permis
+      - EPI
 
-    .row.align-center
-      .medium-8.columns
-        h2 Témoignages
+      ### …Et toutes autres formations
 
-        - data.testimonials.each do |testimonial|
-          p
-            => testimonial.name
-            => testimonial.job
-            = testimonial.company
-          blockquote = testimonial.testimonial
+      - Risque gaz
+      - Geste et posture
+      - Outils et engin de manutention
+      - Habilitation électrique
 
+      ### Nous vous accompagnons du scénario au déploiement.
+
+      Une prestation sur mesure et clefs en mains pour l’adhésion du plus grand nombre à votre démarche.
+
+      - Audit
+      - Contenu de formation
+      - Outil de suivi
+      - Supports de diffusion
+      - Formation des équipes à l'outil
+      - Plan d’action et de communication
