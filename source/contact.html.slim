@@ -4,18 +4,30 @@ description: 'Vision3 met ses experts au service de votre réussite'
 hero_title_h1: Améliorons ensemble le quotidien de vos collègues
 ---
 
-.row
-  .medium-5.columns
-    h2 Work.
-    p We've prepared a simple project planner to get to know you and your project better.
+.row.align-center
+  .small-12.medium-4.columns.text-right
+    h2 Travail.
+    p Nous avons préparé un planificateur de projet simple pour mieux vous connaître et mieux connaître votre projet.
     = link_to 'Démarrer votre projet', '/start', class: 'button'
-  .medium-2.columns
-  .medium-5.columns
-    h2 Rencontre
-    p Questions, advice or just want to share some love? <br>We love compliments.
-    = mail_to 'Démarrer votre projet', data.settings.contact.email, class: 'button secondary'
+  .small-12.medium-4.columns
+    h2 Rencontre.
+    p Des questions, des conseils ou juste envie de nous envoyer un message ? <br>Nous adorons les compliments.
+    = mail_to data.settings.contact.email, data.settings.contact.email, class: 'button secondary'
 
 .text-center
   h3
     small> Téléphone
     = data.settings.contact.phone
+
+  .section-contact-map
+    = fa 'map-marker fa-3x'
+    h3.title
+      = data.settings.contact.adress.name
+      br
+      = data.settings.contact.adress.street
+      br
+      => data.settings.contact.adress.postcode
+      = data.settings.contact.adress.town
+    = link_to 'https://www.google.fr/maps/place/@50.629739,3.0361959,12z/data=!4m5!3m4!1s0x47c328ef02034db7:0xe9e32cc9e585e2dc!8m2!3d50.6912529!4d3.1689931', target: '_blank' do
+      'Voir la carte
+      = fa 'external-link fa-fw'
