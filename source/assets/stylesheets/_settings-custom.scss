@@ -1,3 +1,5 @@
+$global-width: 1200px;
+
 $font-weight-normal: 400;
 $font-weight-bold: 700;
 $global-font-size: 120%;
@@ -6,4 +8,7 @@ $global-font-size: 120%;
 $header-font-family: 'Roboto Condensed', sans-serif;
 $header-font-weight: $font-weight-bold;
 
-$global-width: 1200px;
+$anchor-color: $orange-dark;
+$anchor-color-hover: $orange;
+$anchor-text-decoration: none;
+$anchor-text-decoration-hover: underline;

@@ -1,5 +1,19 @@
 .footer {
   background-color: $black;
   color: $light-gray;
-  padding: 2rem 0;
+  padding: 4rem 0;
+  &-info {
+    @extend h3;
+    &.left {
+      padding-left: 0.7rem;
+    }
+  }
+
+  a {
+    color: $orange;
+    font-weight: $font-weight-bold;
+    &:hover {
+      color: $orange-dark;
+    }
+  }
 }

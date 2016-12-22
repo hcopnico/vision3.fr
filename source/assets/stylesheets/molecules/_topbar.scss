@@ -1,4 +1,7 @@
 .top-bar {
+  .logo {
+    width: 250px;
+  }
   .active {
     color: $white;
     background-color: rgba($black, 0.4);
