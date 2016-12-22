@@ -1,4 +1,5 @@
 require 'slim'
+Slim::Engine.disable_option_validator!
 
 activate :autoprefixer, browsers: ['last 2 versions', 'ie 8', 'ie 9']
 activate :livereload
@@ -15,6 +16,7 @@ activate :navtree do |options|
     'sitemap.xml',
     'robots.txt',
     'favicon_base.png',
+    '404.html.slim',
     'browserconfig.xml',
     'CNAME'
   ]
