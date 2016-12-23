@@ -3,6 +3,7 @@ title: Développer des Solutions e-learning sur Mesure
 description: "Avec ses 10 ans d’expérience dans l’apprentissage en ligne, Vision3 partage son expertise dans la création de contenu vidéos pour des formations"
 hero_title_h1: "Nous sommes Vision3"
 call_to_action: true
+call_to_action_text: Soumettre un projet
 ---
 
 .row
@@ -23,8 +24,8 @@ call_to_action: true
 
 .row
   .medium-12.columns
-
     h2 Notre équipe
+    hr
     .row
       - data.team.each do |member|
         .small-6.medium-4.large-3.columns.text-center
@@ -34,3 +35,26 @@ call_to_action: true
             h3
               small = member.job
           blockquote = member.role
+
+section.section
+  .row
+    .medium-12.columns
+      markdown:
+        ## Clients & partenaires
+
+        Nous sommes reconnus pour __notre réactivité__ et capacité à __proposer des solutions__.
+
+      - data.clients.each do |client|
+        = image_tag "clients/#{client.picture}", alt: "Logo #{client.name} client chez Vision3", class: 'thumbnail'
+
+section.section
+  .row.align-center
+    .medium-8.columns
+      h2 Témoignages
+      - data.testimonials.each do |testimonial|
+        blockquote
+          p = testimonial.testimonial
+          cite
+            => testimonial.name
+            => testimonial.job
+            = testimonial.company

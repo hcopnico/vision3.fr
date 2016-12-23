@@ -3,76 +3,22 @@ title: Construire des experiences de formation interactive sur mesure
 description: "Vision3 est une entreprise spécialisé dans la formation en ligne avec sa plateforme LMS et un contenu pédagogique sur mesure"
 hero_title_h1: "Création de contenus pédagogiques interactifs<br>sur mesure"
 call_to_action: true
+call_to_action_text: Soumettre un projet
 ---
 
 .row
-  .medium-12.columns.expertpage
+  .medium-12.columns
     h2 Expertise
     hr
     p Nous créons des contenus interactifs et digitaux. E-learning autonome ou accompagné, micro learning, quiz et autoévaluation, module interactif pour dynamiser le présentiel…
 
-
     p Santé-sécurité au travail
     p Réduisez les accidents de travail et améliorez le bien-être de vos collaborateurs et partenaires au quotidien.
 
-    h3 Conception
-    .row
-      .small-12.medium-4.columns
-        .card
-          .card-divider
-            h4 Brief
-          .card-section
-            = image_tag 'conception-ingeneer.png', alt: 'Vision3 Briefing digital learning'
-          .card-section
-            p Nous élaborons ensemble le cahier des charges de votre digital learning.
-      .small-12.medium-4.columns
-        .card
-          .card-divider
-            h4 Scénario
-          = image_tag 'conception-writing.png', alt: 'Vision3 scenario de formation e-learning'
-          .card-section
-            p Notre équipe rédige un scénario unique et personnalisé pour vos apprenants.
-      .small-12.medium-4.columns
-        .card
-          .card-divider
-            h4 Storyboard
-          .card-section
-            = image_tag 'conception-storyboard.png', alt: 'Vision3 stroryboard'
-          .card-section
-            p Des mots aux images, le storyboard traduit nos intentions graphiques et dynamiques écran par écran.
+    = partial 'views/markets'
 
-
-    h3 Production
-    .row
-      .small-12.medium-4.columns
-        .card
-          .card-divider
-            h4 Photographe
-          .card-section
-            = image_tag 'production-picture.png', alt: 'Vision3 production de photographies'
-          .card-section
-            p Nous utilisons vos photos ou celles réalisées lors de reportages sur site pour aider l’apprenant à se mettre en situation pendant sa formation.
-      .small-12.medium-4.columns
-        .card
-          .card-divider
-            h4 Infographiste
-          .card-section
-            = image_tag 'production-computer.png', alt: 'Vision3 Infographie et illustrations'
-          .card-section
-            p Nous créons les animations et illustrations en adéquation avec votre culture et identité d'entreprise.
-      .small-12.medium-4.columns
-        .card
-          .card-divider
-            h4 Cadreur
-          .card-section
-            = image_tag 'production-movie.png', alt: 'Vision3 production de vidéos'
-          .card-section
-            p La vidéo est un outil pédagogique majeur. Elle dynamise et immerge l’apprenant.
-
-    h2 Méthode
-    hr
     markdown:
-      ### Nous créons vos outils d’accueil sécurité
+      ### Exemple de contenus
 
       - Présentation du site
       - Principaux risques
@@ -88,18 +34,25 @@ call_to_action: true
       - Outils et engin de manutention
       - Habilitation électrique
 
-      ### Nous vous accompagnons du scénario au déploiement.
 
-      Une prestation sur mesure et clefs en mains pour l’adhésion du plus grand nombre à votre démarche.
+    h2 Méthode
+    hr
+    .expertpage
+      = partial 'views/how-we-work'
 
-    <ol class="tunnel">
-      <li></li>
-      <li></li>
-      <li class="is-current"></li>
-      <li></li>
-      <li></li>
-      <li></li>
-    </ol>
+    section.section
+      markdown:
+        ### Nous vous accompagnons du scénario au déploiement.
+
+        Une prestation sur mesure et clefs en mains pour l’adhésion du plus grand nombre à votre démarche.
+
+      ol.tunnel
+        li
+        li
+        li.is-current
+        li
+        li
+        li
 
       markdown:
         1. Audit
