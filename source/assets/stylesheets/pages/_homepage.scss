@@ -1,0 +1,30 @@
+$footer-height: 250px;
+$header-height: 140px;
+$baseline-height: $header-height + $footer-height;
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.homepage {
+  .top-bar,
+  .footer,
+  .homepage-baseline,
+  .homepage-baseline--links {
+    // opacity: 0;  /* make things invisible upon start */
+    // animation: fadeIn ease-in 1;
+    // animation-fill-mode: forwards;
+    // animation-duration: 500ms;
+    // animation-delay: 1500ms;
+  }
+  .homepage-baseline {
+    animation-delay: 500ms;
+    min-height: calc(100vh - #{$baseline-height});
+    position: relative;
+    &--links {
+      position: absolute;
+      bottom: 0;
+    }
+  }
+}
