@@ -5,82 +5,110 @@ hero_title_h1: "Accompagner nos clients<br>de la conception au deployement"
 call_to_action: true
 ---
 
+
 .row.text-center
   .medium-12.columns
     h2 Plateforme LMS
-    p Nous vous présentons Elise, la solution créée par Vision3.
+    p Nous vous présentons ELISE, la solution créée par Vision3.
 
     .row
       .medium-6.columns
         h3 Avantages
+        p
+          strong Plus de 15 ans d’accompagnement clients
+          br
+          'Et nous continuons d’évoluer !
         .row
-          .columns
-            = fa 'calendar-check-o fa-fw fa-4x'
-            br
-            'Aux normes
-          .columns
-            = fa 'wrench fa-fw fa-4x'
-            br
-            'Personnalisée
-        .row
-          .columns
-            = fa 'smile-o fa-fw fa-4x'
-            br
-            'Simple d’usage
-          .columns
-            = fa 'pencil-square-o  fa-fw fa-4x'
-            br
-            'CMS intégré
+          .small-6.columns
+            .card
+              .card-divider
+                h4 Aux normes
+              .card-section
+                = fa 'calendar-check-o fa-fw fa-4x'
+          .small-6.columns
+            .card
+              .card-divider
+                h4 Personnalisée
+              .card-section
+                = fa 'wrench fa-fw fa-4x'
+          .small-6.columns
+            .card
+              .card-divider
+                h4 Simple d’usage
+              .card-section
+                = fa 'smile-o fa-fw fa-4x'
+          .small-6.columns
+            .card
+              .card-divider
+                h4 CMS intégré
+              .card-section
+                = fa 'pencil-square-o  fa-fw fa-4x'
       .medium-6.columns
         h3 Multi-devices
         p
           strong Vos apprenants sont mobiles ?
           br
           'Nos modules le sont aussi !
-          = image_tag 'contenu-pedagogique-multiplateforme.png', alt: 'Solution de LMS Multi-devices mobile et tablette'
+        = image_tag 'contenu-pedagogique-multiplateforme.png', alt: 'Solution de LMS Multi-devices mobile et tablette'
 
-    h2 Clients & partenaires
-    p Nous sommes reconnus pour notre réactivité et capacité à proposer des solutions.
-    - data.clients.each do |client|
-      = image_tag "clients/#{client.picture}", alt: "Logo #{client.name} client chez Vision3", class: 'thumbnail'
-
-    h2 Nous créons vos outils d’accueil sécurité
-    p Vision3 travaille quotidiennement avec des acteurs de différents secteur d’activité
-
-    .row
-      .columns
-        = fa 'shopping-cart fa-4x'
-        br
-        br
-        p Grande distribution
-      .columns
-        = fa 'cutlery fa-4x'
-        br
-        br
-        p Industrie agroalimentaire
-      .columns
-        = fa 'flask fa-4x'
-        br
-        br
-        p Industrie pétrochimique
-      .columns
-        = fa 'medkit fa-4x'
-        br
-        br
-        p Industrie pharmaceutique
-      .columns
-        = fa 'truck fa-4x'
-        br
-        br
-        p Site logistiques
+    section.section
+      markdown:
+        ## Clients & partenaires
+        Nous sommes reconnus pour __notre réactivité__ et capacité à __proposer des solutions__.
+      - data.clients.each do |client|
+        = image_tag "clients/#{client.picture}", alt: "Logo #{client.name} client chez Vision3", class: 'thumbnail'
 
 
-    .row.align-center
-      .medium-8.columns
-        h2 Témoignages
-        - data.testimonials.each do |testimonial|
-          p
+section.section.text-center
+  markdown:
+    ## Nous créons vos outils d’accueil sécurité
+    Vision3 travaille quotidiennement avec des acteurs de __différents secteur d’activité__.
+  .row
+    .small-6.medium-4.columns
+      .card
+        .card-divider
+          h4 Grande distribution
+        .card-section
+          = fa 'shopping-cart fa-4x'
+    .small-6.medium-4.columns
+      .card
+        .card-divider
+          h4 Industrie agroalimentaire
+        .card-section
+          = fa 'cutlery fa-4x'
+    .small-6.medium-4.columns
+      .card
+        .card-divider
+          h4 Industrie pétrochimique
+        .card-section
+          = fa 'flask fa-4x'
+    .small-6.medium-4.columns
+      .card
+        .card-divider
+          h4 Industrie pharmaceutique
+        .card-section
+          = fa 'medkit fa-4x'
+    .small-6.medium-4.columns
+      .card
+        .card-divider
+          h4 Site logistiques
+        .card-section
+          = fa 'truck fa-4x'
+    .small-6.medium-4.columns
+      .card
+        .card-divider
+          h4 Votre spécialité ?
+        .card-section
+          = fa 'info fa-4x'
+
+section.section
+  .row.align-center
+    .medium-8.columns
+      h2 Témoignages
+      - data.testimonials.each do |testimonial|
+        blockquote
+          p = testimonial.testimonial
+          cite
             => testimonial.name
             => testimonial.job
             = testimonial.company
-          blockquote = testimonial.testimonial

@@ -23,4 +23,8 @@ blockquote {
     top: -10px;
     color: rgba($purple, 0.4);
   }
+  cite {
+    font-weight: $font-weight-bold;
+    margin-top: 1rem;
+  }
 }

@@ -20,6 +20,8 @@ $anchor-text-decoration-hover: underline;
 
 $blockquote-color: rgba($black, 0.8);
 $blockquote-border: 5px solid $purple;
+$cite-font-size: 1rem;
+
 
 
 // 14. Card
@@ -28,3 +30,10 @@ $blockquote-border: 5px solid $purple;
 $card-font-color: $purple-light;
 $card-divider-background: $light-gray;
 $card-border: 1px solid rgba($black, 0.2);
+
+
+
+// 36. Tooltip
+// --------
+
+$has-tip-border-bottom: none;
