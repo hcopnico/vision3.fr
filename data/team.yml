@@ -2,19 +2,19 @@
   picture: julie.png
   name: Julie
   job: Directrice
-  role: Chef de bande et commerciale j’accompagne mes clients
+  role: Chef de bande et commerciale
   fun: Chaque matin je fait du bon café pour la team
 -
   picture: alex.png
   name: Alexandre
   job: Analyste programmeur
-  role: M’occuper du bien-être d’ELISE
+  role: Je m’occupe du bien-être d’ELISE
   fun: Je suis le Maitre des Clés
 -
   picture: camille.png
   name: Camille
   job: Chef de projet pédagogique
-  role: Organiser et accompagner nos clients dans leurs projets
+  role: J’aide nos clients dans leurs projets
   fun: Je suis la maîtresse du planning
 -
   picture: nico.png
@@ -25,15 +25,24 @@
 -
   picture: mathieu.png
   name: Mathieu
-  quote: …
+  job: …
+  role: …
+  fun: …
+
 -
   picture: yamina.png
   name: Yamina
-  quote: …
+  job: …
+  role: …
+  fun: …
+
 -
   picture: flo.png
   name: Florian
-  quote: "Paris champion, le reste c’est du bidon"
+  job: …
+  role: …
+  fun: …
+
 -
   picture: yamina.png
   name: Amélie

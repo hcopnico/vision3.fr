@@ -1,19 +1,25 @@
 $global-width: 1200px;
 
+
+// 4. Typography
+// --------
+
 $font-weight-normal: 400;
-$font-weight-bold: 700;
-$global-font-size: 120%;
+$font-weight-bold:   700;
+$global-font-size:  120%;
 
 // $body-font-family: 'Roboto Condensed', sans-serif;
 $header-font-family: 'Roboto Condensed', sans-serif;
 $header-font-weight: $font-weight-bold;
 $header-color: $purple-light;
 
-
 $anchor-color: $orange-dark;
 $anchor-color-hover: $orange;
 $anchor-text-decoration: none;
 $anchor-text-decoration-hover: underline;
+
+$blockquote-color: rgba($black, 0.8);
+$blockquote-border: 5px solid $purple;
 
 
 // 14. Card

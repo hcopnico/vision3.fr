@@ -6,3 +6,21 @@ h5,
 h6 {
   letter-spacing: -1px;
 }
+
+blockquote {
+  font-style: italic;
+  background-color: #EEEEEE;
+  padding: 1rem 1rem 1rem 3rem;
+  p {
+    margin-bottom: 0;
+  }
+  position: relative;
+  &:before {
+    content: "\201C";
+    font-size: 4em;
+    position: absolute;
+    left: 10px;
+    top: -10px;
+    color: rgba($purple, 0.4);
+  }
+}
