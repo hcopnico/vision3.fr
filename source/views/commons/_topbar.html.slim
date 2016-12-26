@@ -1,13 +1,11 @@
 header.top-bar
-  .top-bar-left
-    ul.menu
-      li.logo
-        = link_to '/' do
-          = svg 'logo-vision3'
-      li.hide-for-large
-        = link_to 'Menu', '#', id: 'js-top-bar--button'
+  .top-bar-title
+    = link_to '/' do
+      = svg 'logo-vision3'
+  .hide-for-large
+    = link_to 'Menu', '#', id: 'js-top-bar--button'
   #js-top-bar--links.top-bar-right
-    ul.menu.vertical.medium-horizontal
+    ul.menu.vertical.large-horizontal
       li
         = link_to 'Notre Expertise', '/elearning/', nav_active('/elearning/')
       li

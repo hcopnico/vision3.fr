@@ -22,19 +22,20 @@ call_to_action_text: Soumettre un projet
 
       Notre objectif est qu’il passe un moment agréable, au cours duquel il aura compris son intérêt, compris les essentiels et la manière de les appliquer à son poste de travail.
 
-.row
-  .medium-12.columns
-    h2 Notre équipe
-    hr
-    .row
-      - data.team.each do |member|
-        .small-6.medium-4.large-3.columns.text-center
-          div.has-tip.top data-tooltip="" aria-haspopup="true" data-disable-hover="false" title="#{member.fun}"
-            h3 = member.name
-            = image_tag "team/#{member.picture}", alt: "Photo de #{member.name} chez Vision 3", class: 'picture-avatar'
-            h3
-              small = member.job
-          blockquote = member.role
+section.section
+  .row
+    .medium-12.columns
+      h2 Notre équipe
+      hr
+      .row
+        - data.team.each do |member|
+          .small-12.medium-4.large-3.columns.text-center
+            div.has-tip.top data-tooltip="" aria-haspopup="true" data-disable-hover="false" title="#{member.fun}"
+              h3 = member.name
+              = image_tag "team/#{member.picture}", alt: "Photo de #{member.name} chez Vision 3", class: 'picture-avatar'
+              h3
+                small = member.job
+            blockquote = member.role
 
 section.section
   .row
@@ -44,8 +45,10 @@ section.section
 
         Nous sommes reconnus pour __notre réactivité__ et capacité à __proposer des solutions__.
 
-      - data.clients.each do |client|
-        = image_tag "clients/#{client.picture}", alt: "Logo #{client.name} client chez Vision 3", class: 'thumbnail'
+      .row
+        - data.clients.each do |client|
+          .small-6.medium-4.large-3.columns
+            = image_tag "clients/#{client.picture}", alt: "Logo #{client.name} client chez Vision 3", class: 'thumbnail'
 
 section.section
   .row.align-center

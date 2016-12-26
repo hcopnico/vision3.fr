@@ -16,22 +16,37 @@
   }
   .homepage-baseline {
     &--title {
-      min-height: 500px;
+      min-height: 600px;
+      @include breakpoint(large) {
+        min-height: 500px;
+        .columns {
+          align-self: center;
+        }
+      }
       color: $gray;
       em {
         color: $orange-dark;
       }
     }
 
+    min-height: 100vh;
+    @include breakpoint(large) {
+      min-height: calc(100vh - 210px);
+    }
+
     animation-delay: 500ms;
-    min-height: calc(100vh - 210px);
     position: relative;
     &--links {
       position: absolute;
       bottom: 0;
-      @include breakpoint(large) {
+      @include breakpoint(medium large) {
         width: 100%;
       }
+    }
+  }
+  .section-call-to-action {
+    .row {
+      max-width: 100%;
     }
   }
 }

@@ -1,4 +1,14 @@
 .typeform-widget {
   width: 100%;
-  height: 800px;
+  height: 200px;
+  @include breakpoint(large){
+    height: 600px;
+  }
+}
+
+.start {
+  .section-hero {
+    margin-bottom: 0;
+    padding: 2rem;
+  }
 }
