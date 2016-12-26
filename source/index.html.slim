@@ -6,12 +6,28 @@ page_class: 'homepage'
 
 .homepage-baseline
   .row.align-center.homepage-baseline--title
-    .medium-8.columns
+    .medium-8.columns.align-self-middle
       small
-        em digital • santé • sécurité
+        strong
+          em> digital
+          '•
+          em> santé
+          '•
+          em sécurité
       h1 Nous créons des expériences d’apprentissage numériques.
 
   .homepage-baseline--links
-    p Modules interactifs qui améliorent les compétences des collaborateurs
-
-    p Un accueil sécurité efficace, automatique et personnalisé
+    section.section-call-to-action
+      .row
+        .small-12.medium-6.columns.section-homepage-left
+          p.title-small
+            'Un accueil sécurité efficace,
+            br
+            'automatique et personnalisé
+          = link_to 'Formation e-learning', '/elearning/', class: 'button button-work'
+        .small-12.medium-6.columns.section-homepage-right
+          p.title-small
+            'Modules interactifs qui
+            br
+            'améliorent les compétences des collaborateurs
+          = link_to 'Solution LMS', '/work/', class: 'button button-work'

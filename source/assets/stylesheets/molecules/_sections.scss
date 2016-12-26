@@ -1,5 +1,6 @@
 @mixin title-color() {
-  .title {
+  .title,
+  .title-small {
     color: $white;
     text-shadow: 0px 3px 1px rgba($black, 0.2);
   }
@@ -33,14 +34,33 @@
 }
 
 .section-call-to-action {
-  padding: 2rem 0;
-  background: linear-gradient(to right, rgba($purple-steroid, 0.8) 0%, rgba($purple, 0.8) 50%), image-url('call-to-action.jpg');
   background-size: cover;
-  background-position: center center;
   text-align: center;
   @include title-color();
+
+  &.section-footer {
+    padding: 2rem 0;
+    background: linear-gradient(to right, rgba($purple-steroid, 0.8) 0%, rgba($purple, 0.8) 50%), image-url('call-to-action/footer.jpg');
+    background-position: center center;
+  }
+  .section-homepage-left {
+    background: linear-gradient(to right, rgba($purple-steroid, 0.8) 0%, rgba($purple, 0.8) 50%), image-url('call-to-action/homepage-left.jpg');
+    background-position: top center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  .section-homepage-right {
+    background: linear-gradient(to right, rgba($purple-steroid, 0.8) 0%, rgba($purple, 0.8) 50%), image-url('call-to-action/homepage-right.jpg');
+    background-position: center center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
   .title {
     @extend h3;
+  }
+  .title-small {
+    @extend h4;
   }
 }
 

@@ -10,8 +10,11 @@
   .card-divider {
     text-align: center;
     h4 {
-      color: $purple;
+      color: $purple-light;
     }
+  }
+  .fa {
+    color: $gray;
   }
 }
 

@@ -1,7 +1,3 @@
-$footer-height: 250px;
-$header-height: 140px;
-$baseline-height: $header-height + $footer-height;
-
 @keyframes fadeIn {
   from { opacity: 0; }
   to { opacity: 1; }
@@ -16,15 +12,26 @@ $baseline-height: $header-height + $footer-height;
     animation: fadeIn ease-in 1;
     animation-fill-mode: forwards;
     animation-duration: 500ms;
-    animation-delay: 1500ms;
+    animation-delay: 2000ms;
   }
   .homepage-baseline {
+    &--title {
+      min-height: 500px;
+      color: $gray;
+      em {
+        color: $orange-dark;
+      }
+    }
+
     animation-delay: 500ms;
-    min-height: calc(100vh - #{$baseline-height});
+    min-height: calc(100vh - 210px);
     position: relative;
     &--links {
       position: absolute;
       bottom: 0;
+      @include breakpoint(large) {
+        width: 100%;
+      }
     }
   }
 }
