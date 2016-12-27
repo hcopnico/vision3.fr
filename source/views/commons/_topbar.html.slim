@@ -2,8 +2,6 @@ header.top-bar
   .top-bar-title
     = link_to '/' do
       = svg 'logo-vision3'
-  .hide-for-large
-    = link_to 'Menu', '#', id: 'js-top-bar--button'
   #js-top-bar--links.top-bar-right
     ul.menu.vertical.large-horizontal
       li
@@ -16,3 +14,7 @@ header.top-bar
         = link_to 'Contact', '/contact/', nav_active('/contact/')
       li
         = link_to 'Soumettre Un Projet', '/start/', class: 'button'
+  .hide-for-large
+    = link_to '#', id: 'js-top-bar--button', class: 'button hollow' do
+      = fa 'bars fa-fw'
+      'Menu
