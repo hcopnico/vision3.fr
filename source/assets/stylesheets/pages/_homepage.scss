@@ -16,9 +16,13 @@
   }
   .homepage-baseline {
     &--title {
+      h1 {
+        line-height: 1.2;
+      }
+
       min-height: 600px;
       @include breakpoint(large) {
-        min-height: 500px;
+        min-height: 570px;
         .columns {
           align-self: center;
         }
