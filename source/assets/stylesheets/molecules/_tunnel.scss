@@ -1,19 +1,18 @@
-/* ol is flex-container */
 .tunnel {
+  margin: 2rem 0;
   counter-reset: progress;
   padding-left: 0;
   display: flex;
+  li {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    counter-increment: progress;
+    font-weight: $font-weight-bold;
+  }
 }
 
-/* li is flex-item and flex-container */
-.tunnel li {
-  display: flex;
-  align-items: center;
-  list-style-type: none;
-  counter-increment: progress
-}
 
-/* everyone flexible except first */
 .tunnel li+li {
   flex: 1 0 auto;
 }
@@ -37,7 +36,7 @@
   color: #fff;
 }
 
-/* show progress bars except for first */
+
 .tunnel li+li::before {
   content: "";
   flex: 1;
