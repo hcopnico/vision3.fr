@@ -9,7 +9,7 @@
   name: Alexandre
   job: Analyste programmeur
   role: Je m’occupe du bien-être d’ELISE
-  fun: Je suis le Maitre des Clés
+  fun: Je suis le maître des clés
 -
   picture: camille.png
   name: Camille
@@ -18,22 +18,15 @@
   fun: Je suis la maîtresse du planning
 -
   picture: nico.png
-  name: Nico
+  name: Nicolas
   job: Entrepreneur
   role: 'Penser, Créer pour demain'
   fun: L’important c’est le chemin !
 -
-  picture: mathieu.png
-  name: Mathieu
-  job: …
-  role: …
-  fun: …
-
--
   picture: yamina.png
   name: Yamina
   job: Chef de projet pédagogique
-  role: Veiller à la qualité des formations proposées
+  role: Veiller sur la qualité des formations proposées
   fun: "Dès que je rigole, tout le bureau m’entend"
 
 -
@@ -42,7 +35,6 @@
   job: Infographiste
   role: Illustrer vos projets de formation
   fun: Sans café, je suis grognon…
-
 -
   picture: amelie.png
   name: Amélie

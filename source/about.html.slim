@@ -22,7 +22,7 @@ call_to_action_text: Soumettre un projet
     markdown:
       > La simplicité & l’authenticité dans nos relations
 
-      L’apprenant c'est vous, c’est lui, c’est nous… Il est au coeur de la formation.
+      L’apprenant c'est vous, c’est lui, c’est nous… Il est au cœur de la formation.
 
       Notre objectif est qu’il passe un moment agréable, au cours duquel il aura compris son intérêt, compris les essentiels et la manière de les appliquer à son poste de travail.
 
@@ -31,7 +31,7 @@ section.section
     .medium-12.columns
       .text-center
         h2 Notre équipe
-      .row
+      .row.align-center
         - data.team.each do |member|
           .small-12.medium-4.large-3.columns.text-center
             div.has-tip.top data-tooltip="" aria-haspopup="true" data-disable-hover="false" title="#{member.fun}"
@@ -41,7 +41,7 @@ section.section
                 small = member.job
             blockquote = member.role
 
-section.section
+section.section.section-light
   .row
     .medium-12.columns.text-center
       markdown:

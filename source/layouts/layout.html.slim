@@ -10,7 +10,7 @@ html lang="#{data.settings.site.i18n}"
     = yield_content :head
 
   body class="#{page_classes} #{current_page.data.page_class}"
-    = partial 'views/commons/topbar'
+    = partial 'views/commons/top-bar'
     = partial 'views/commons/hero-banner'
     == yield
     = partial 'views/call-to-action'

@@ -11,10 +11,14 @@ hero_title_h1: Améliorons ensemble le quotidien de vos collègues
     = link_to 'Démarrer votre projet', '/start/', class: 'button'
   .small-12.medium-4.columns
     h2 Rencontre.
-    p Des questions, des conseils ou juste envie de nous envoyer un message ? <br>Nous adorons les compliments.
+    p
+      'Des questions, des conseils ou juste envie de
+      strong nous envoyer un message ?
+      br
+      'Nous adorons les compliments.
     = mail_to data.settings.contact.email, data.settings.contact.email, class: 'button secondary'
 
-section.section.text-center
+section.section.text-center.pb-0
   h3
     small> Téléphone
     = data.settings.contact.phone

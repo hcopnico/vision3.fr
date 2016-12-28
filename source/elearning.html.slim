@@ -1,5 +1,5 @@
 ---
-title: Construire des experiences de formation interactive sur mesure
+title: Construire des experiences de formation interactives sur mesure
 description: "Vision 3 est une entreprise spécialisé dans la formation en ligne avec sa plateforme LMS et un contenu pédagogique sur mesure"
 hero_title_h1: "Création de contenus pédagogiques interactifs sur mesure"
 call_to_action: true
@@ -9,12 +9,21 @@ call_to_action_text: Soumettre un projet
 
 .row
   .medium-12.columns
-    h2 Expertise
-    p Nous créons des contenus interactifs et digitaux. E-learning autonome ou accompagné, micro learning, quiz et autoévaluation, module interactif pour dynamiser le présentiel…
-    p Santé-sécurité au travail
-    p Réduisez les accidents de travail et améliorez le bien-être de vos collaborateurs et partenaires au quotidien.
-    = partial 'views/markets'
+    markdown:
+      ## Expertise
+      Nous créons des contenus interactifs et digitaux. E-learning autonome ou accompagné, micro learning, quiz et autoévaluation, module interactif pour dynamiser le présentiel…
 
+      Réduisez les accidents de travail et __améliorez le bien-être__ de vos collaborateurs et partenaires au quotidien.
+    p Santé-sécurité au travail
+
+section.section.section-light.text-center
+  markdown:
+    ## Nous créons vos outils d’accueil sécurité
+    Vision 3 travaille quotidiennement avec des acteurs de __différents secteur d’activité__.
+  = partial 'views/markets'
+
+.row
+  .medium-12.columns
     markdown:
       ### Exemple de contenus
 
@@ -26,37 +35,38 @@ call_to_action_text: Soumettre un projet
       - EPI
 
       ### …Et toutes autres formations
-
     = partial 'views/domains'
 
-    section.section.text-center
-      h2 La Méthode Vision 3
-      .expertpage
-        = partial 'views/how-we-work'
+section.section.section-light.text-center
+  h2 La Méthode Vision 3
+  .expertpage
+    = partial 'views/how-we-work'
 
-    section.section
-      .text-center
-        markdown:
-          ### Nous vous accompagnons du scénario au déploiement.
+section.section
+  .row
+    .medium-12.columns
+        .text-center
+          markdown:
+            ### Nous vous accompagnons du scénario au déploiement.
 
-          Une __prestation sur mesure__ et clefs en mains pour l’adhésion du plus grand nombre à votre démarche.
+            Une __prestation sur mesure__ et clefs en mains pour l’adhésion du plus grand nombre à votre démarche.
 
-      ol.tunnel
-        li
-        li
-        li.is-current
-        li
-        li
-        li
+        ol.tunnel
+          li
+          li
+          li.is-current
+          li
+          li
+          li
 
-      .row.align-center
-        .medium-4.columns
-          ul.no-bullet
-            li 1) Audit
-            li 2) Contenu de formation
-            li 3) Outil de suivi
-        .medium-4.columns
-          ul.no-bullet
-            li 4) Supports de diffusion
-            li 5) Formation des équipes à l'outil
-            li 6) Plan d’action et de communication
+        .row.align-center
+          .medium-4.columns
+            ul.no-bullet
+              li 1) Audit
+              li 2) Contenu de formation
+              li 3) Outil de suivi
+          .medium-4.columns
+            ul.no-bullet
+              li 4) Supports de diffusion
+              li 5) Formation des équipes à l'outil
+              li 6) Plan d’action et de communication
