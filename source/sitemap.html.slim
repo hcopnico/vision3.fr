@@ -3,11 +3,13 @@ title: Plan du site
 description: "Retrouvez le plan du site de Vision 3, l'agence spécialisée dans la formation en ligne à Roubaix"
 hero_title_h1: Plan du site
 call_to_action: true
+call_to_action_question: Vous aimez notre travail ?
 call_to_action_text: Soumettre un projet
 ---
 
-.row.align-center
-  .medium-8.columns
-    p Retrouvez ici l’ensemble des rubriques et des pages du site.
-    ul.no-bullet
-      = tree_to_html data.tree
+section.section
+  .row.align-center
+    .medium-8.columns
+      p Retrouvez ici l’ensemble des rubriques et des pages du site.
+      ul.no-bullet
+        = tree_to_html data.tree

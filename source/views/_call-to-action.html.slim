@@ -2,5 +2,5 @@
   section.section-call-to-action.section-footer
     .row
       .columns
-        p.title Vous aimez notre travail ?
+        p.title = current_page.data.call_to_action_question
         = link_to current_page.data.call_to_action_text, '/start/', class: 'button button-work'

@@ -27,6 +27,10 @@
           align-self: center;
         }
       }
+      @include breakpoint(small only) {
+        padding-top: 3rem;
+      }
+
       color: $gray;
       em {
         color: $orange-dark;

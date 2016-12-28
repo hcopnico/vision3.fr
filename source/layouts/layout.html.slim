@@ -5,7 +5,7 @@ html lang="#{data.settings.site.i18n}"
     = partial 'views/commons/meta_tags'
     = partial 'views/commons/favicon'
     = stylesheet_link_tag 'application'
-    = stylesheet_link_tag 'https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700'
+    = stylesheet_link_tag 'https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Condensed:700'
     = stylesheet_link_tag 'https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'
     = yield_content :head
 
@@ -13,7 +13,7 @@ html lang="#{data.settings.site.i18n}"
     = partial 'views/commons/topbar'
     = partial 'views/commons/hero-banner'
     == yield
-    = partial 'views/work-with-us'
+    = partial 'views/call-to-action'
     = partial 'views/commons/footer'
 
     = javascript_include_tag 'application'
