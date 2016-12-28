@@ -1,4 +1,15 @@
 .top-bar {
+  position: relative;
+  #js-top-bar--button {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    min-width: 130px;
+  }
+  #js-close {
+    display: none;
+  }
+
   .active {
     color: $purple-steroid !important;
   }
@@ -14,6 +25,11 @@
     display: none;
     @include breakpoint(large) {
       display: block;
+    }
+  }
+  @include breakpoint(small medium){
+    .menu.vertical > li > a {
+      justify-content: center;
     }
   }
 }

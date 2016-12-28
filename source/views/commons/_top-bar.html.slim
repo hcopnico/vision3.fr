@@ -16,5 +16,9 @@ header#top-bar.top-bar
         = link_to 'Soumettre Un Projet', '/start/', class: 'button'
   .hide-for-large
     = link_to '#', id: 'js-top-bar--button', class: 'button hollow' do
-      = fa 'bars fa-fw'
-      'Menu
+      span#js-open
+        = fa 'bars fa-fw'
+        'Menu
+      span#js-close
+        = fa 'times fa-fw'
+        'Fermer
