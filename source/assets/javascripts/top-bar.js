@@ -9,8 +9,5 @@ function mobileMenu () {
 }
 
 $(document).ready(function() {
-
-  $(document).foundation();
   mobileMenu();
-
 });
