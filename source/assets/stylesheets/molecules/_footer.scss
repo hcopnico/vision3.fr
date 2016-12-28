@@ -1,7 +1,10 @@
 .footer {
   background-color: $black;
-  padding: 4rem 0;
   color: $light-gray;
+  padding: 2rem 0;
+  @include breakpoint(medium) {
+    padding: 4rem 0;
+  }
   &-info {
     color: $light-gray;
     @extend h3;
