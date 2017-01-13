@@ -1,15 +1,20 @@
 -
-  company: Carter Cash
-  name: Faustine
-  job: Responsable formation
-  testimonial: 'Vision 3, c’est avant tout une équipe à l’écoute, qui "percute" et qui sait s’adapter aux spécificités de son client.<br>C’est aussi une équipe de professionnels, toujours force de proposition et de créativité pour mettre en valeur l’enseigne qu’ils accompagnent.<br>Après tant d’années, c’est toujours un plaisir de travailler ensemble…'
+  company: BP
+  name: Pascal
+  job: Formateur Réseau Stations-Service BP
+  testimonial: "Cette équipe jeune, enthousiaste et dynamique fait redécouvrir ce qu’est un vrai service client.<br> Du projet à la réalisation, cette équipe de vrais professionnels s’assure jusqu’à la mise en ligne que le résultat corresponde à votre attente."
 -
-  company:
-  name: David
-  job: Formateur indépendant
-  testimonial: 'C’est le côté formation e-learning sur-mesure qui permet de proposer une expérience unique et personnalisée. Je trouve que cette solution apporte beaucoup plus de valeur pour les apprenants.'
+  company: Danone
+  name: Clothilde
+  job: Responsable Sécurité des Biens et des Personnes Danone Produits Frais France
+  testimonial: "Je pense que notre partenariat a été une vraie collaboration entre une super équipe à l’écoute, très professionnelle, maîtrisant les nouveaux outils de communication, les logiciels, la production de reportages photos et de films et un groupe qui met à disposition des experts techniques sécurité et un pilote de projet national pour coordonner la mise en œuvre sur 18 sites.<br> Pour un challenge réussi, il faut donc une bonne équipe qui croit en l’outil, qui maîtrise les sujets et qui s’investisse pour que l’aboutissement du projet soit rapide en terme de résultat et impactant."
 -
   company: Groupe Avril
   name: Romain
-  job: Technicien QHSE
-  testimonial: "Une équipe dynamique et innovante qui a su apporter à notre groupe un outil de communication performant, nous permettant de déployer nos bonnes pratiques d'hygiène, sécurité et environnement à l'ensemble de nos collaborateurs. Un challenge réussi avec Vision 3 !"
+  job: Assistant HSE Direction Développement Industriel et International
+  testimonial: "Une équipe dynamique et innovante qui a su apporter à notre groupe un outil de communication performant, nous permettant de déployer nos bonnes pratiques d’hygiène, sécurité et environnement à l’ensemble de nos collaborateurs et co-traitants. Un challenge réussi avec Vision 3 !"
+-
+  company: 'Carter-Cash'
+  name: Faustine
+  job: Chargée de Communication Interne
+  testimonial: 'Vision 3, c’est avant tout une équipe à l’écoute, qui "percute" et qui sait s’adapter aux spécificités de son client. C’est aussi une équipe de professionnels, toujours force de proposition et de créativité pour mettre en valeur l’enseigne qu’ils accompagnent. Après tant d’années, c’est toujours un plaisir de travailler ensemble...'
