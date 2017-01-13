@@ -13,7 +13,6 @@ $header-font-family: 'Roboto Condensed', sans-serif;
 $header-font-weight: $font-weight-bold;
 $header-color: $purple-light;
 $header-lineheight: 2;
-
 $header-styles: (
   small: (
     'h1': ('font-size': 26),
@@ -32,6 +31,7 @@ $header-styles: (
     'h6': ('font-size': 16),
   ),
 );
+$paragraph-lineheight: 1.4;
 
 $anchor-color: $blue;
 // $anchor-color-hover: $purple-light;
