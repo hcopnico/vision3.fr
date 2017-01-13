@@ -1,7 +1,4 @@
 .top-bar {
-  @include breakpoint(small only){
-    height: 110px;
-  }
   position: relative;
   #js-top-bar--button {
     position: absolute;

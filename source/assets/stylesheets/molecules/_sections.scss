@@ -69,8 +69,12 @@
 }
 
 .section {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  @include breakpoint(medium){
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
   &.section-light {
     background-color: $gray-lighter;
     margin-top: 2rem;
