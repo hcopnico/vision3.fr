@@ -9,8 +9,8 @@ If you want more informations read the [documentation here](https://github.com/f
 
 ### Browser preview
 
-    middleman server
+    $ bundle exec middleman server
 
 ### Deploying to GitHub Pages
 
-    middleman deploy
+    $ bundle exec middleman deploy

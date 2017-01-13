@@ -43,3 +43,8 @@
 .freyja_box82 .frr_wrap ol li .number_divider {
   position:absolute;left:-50px;font-weight:800;top: -5px;}
 
+
+.freyja_box82 .frr_wrap ol li.is-active:before,
+.freyja_box82 .frr_wrap ol li.is-active:after {
+  background-color: $blue;
+}
