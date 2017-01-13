@@ -4,8 +4,6 @@
       h1 {
         line-height: 1.2;
       }
-
-      min-height: 600px;
       @include breakpoint(large) {
         min-height: 570px;
         .columns {
@@ -22,15 +20,12 @@
       }
     }
 
-    min-height: 100vh;
     @include breakpoint(large) {
       min-height: calc(100vh - 210px);
     }
 
     position: relative;
     &--links {
-      position: absolute;
-      bottom: 0;
       @include breakpoint(medium large) {
         width: 100%;
       }
