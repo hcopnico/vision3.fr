@@ -6,16 +6,18 @@ hero_title_h1: Améliorons ensemble le quotidien de vos collègues
 
 .row.align-center
   .small-12.medium-4.columns.text-right
-    h2 Travail.
-    p Nous avons préparé un planificateur de projet simple pour mieux vous connaître et mieux connaître votre projet.
-    = link_to 'Démarrer votre projet', '/start/', class: 'button'
-  .small-12.medium-4.columns
-    h2 Rencontre.
+    h2 Un projet ?
     p
-      'Des questions, des conseils ou juste envie de
-      strong nous envoyer un message ?
-      br
-      'Nous adorons les compliments.
+      'Un projet ? Répondez à ces quelques questions. Notre
+      strong> premier contact
+      'en sera d’autant
+      strong plus riche !
+    = link_to 'Dites-nous tout', '/start/', class: 'button'
+  .small-12.medium-4.columns
+    h2 Une question ?
+    p
+      'Des questions, un commentaire, une idée à partager ?
+      strong Envoyez nous un message.
     = mail_to data.settings.contact.email, data.settings.contact.email, class: 'button secondary'
 
 section.section.text-center.pb-0
