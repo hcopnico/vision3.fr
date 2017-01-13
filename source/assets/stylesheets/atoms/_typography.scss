@@ -10,7 +10,7 @@ h6 {
 blockquote {
   font-style: italic;
   background-color: #EEEEEE;
-  padding: 1rem 1rem 1rem 3rem;
+  padding: 1rem 1rem 1rem 2rem;
   p {
     margin-bottom: 0;
   }
@@ -19,7 +19,7 @@ blockquote {
     content: "\201C";
     font-size: 4em;
     position: absolute;
-    left: 10px;
+    left: 5px;
     top: -10px;
     color: rgba($purple, 0.4);
   }
@@ -27,4 +27,8 @@ blockquote {
     font-weight: $font-weight-bold;
     margin-top: 1rem;
   }
+}
+
+strong {
+  color: $orange-dark;
 }

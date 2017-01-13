@@ -1,43 +1,42 @@
 -
   picture: julie.png
   name: Julie
-  job: Directrice
-  role: Chef de bande et commerciale
-  fun: Chaque matin je fais du bon café pour la team
+  job: Technico-commerciale
+  role: Écouter, conseiller & accompagner
+  fun: Le plaisir et l’enthousiasme sont contagieux
 -
   picture: alex.png
   name: Alexandre
   job: Analyste programmeur
-  role: Je m’occupe du bien-être d’ELISE
+  role: S’occuper du bien-être d’ELISE
   fun: Je suis le maître des clés
 -
   picture: camille.png
   name: Camille
   job: Chef de projet pédagogique
-  role: J’aide nos clients dans leurs projets
+  role: Aider nos clients dans leurs projets
   fun: Je suis la maîtresse du planning
 -
   picture: nico.png
   name: Nicolas
   job: Entrepreneur
-  role: 'Penser, Créer pour demain'
+  role: 'Penser, créer pour demain'
   fun: L’important c’est le chemin !
 -
   picture: yamina.png
   name: Yamina
   job: Chef de projet pédagogique
-  role: Veiller sur la qualité des formations proposées
-  fun: "Dès que je rigole, tout le bureau m’entend"
-
+  role: Veiller sur la qualité des formations
+  fun: "Ultra positive, mon rire est communicatif !"
 -
   picture: flo.png
   name: Florian
   job: Infographiste
-  role: Illustrer vos projets de formation
+  role: Donner vie à vos projets de formation
   fun: Sans café, je suis grognon…
 -
   picture: amelie.png
   name: Amélie
-  job: La gestion
-  role: Assurer que tout soit bien au carré
+  job: Comptable
+  role: S'assurer que tout soit bien au carré
   fun: "Je joue avec des chiffres & des Lettres"
