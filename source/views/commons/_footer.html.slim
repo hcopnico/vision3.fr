@@ -1,14 +1,14 @@
 - unless page_classes == 'x404 x404_index'
   footer.footer role="contentinfo"
     .row
-      .small-12.medium-6.columns
+      .small-12.medium-6.columns.footer-text-left
         .footer-info.left Vision 3, Roubaix
         ul.menu.vertical.medium-horizontal
           li
             = link_to 'Contact & carte', '/contact/'
           li
             = link_to 'Plan du site', '/sitemap.html'
-      .small-12.medium-6.columns.text-right
+      .small-12.medium-6.columns.footer-text-right
         .footer-info = data.settings.contact.phone
         '&copy; Copyright
         time datetime="#{Date.today.strftime('%Y')}"

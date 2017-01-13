@@ -23,6 +23,23 @@
   .link-to-top {
     display: block;
     padding-top: 2rem;
+  }
+
+  &-text-right {
+    text-align: center;
     margin-top: 1rem;
+    @include breakpoint(medium) {
+      text-align: right;
+      margin-top: 0;
+    }
+  }
+  &-text-left {
+    text-align: center;
+    a {
+      justify-content: center !important;
+    }
+    @include breakpoint(medium) {
+      text-align: left;
+    }
   }
 }
