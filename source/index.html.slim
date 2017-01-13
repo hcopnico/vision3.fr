@@ -22,15 +22,21 @@ page_class: 'homepage'
   .homepage-baseline--links
     section.section-call-to-action
       .row
-        .small-12.medium-6.columns.section-homepage-left
+        .small-12.medium-12.large-4.columns.section-homepage.background-left
           p.title-small
             'Un accueil sécurité efficace,
             br
             'automatique et personnalisé
-          = link_to 'Formation e-learning', '/elearning/', class: 'button button-work'
-        .small-12.medium-6.columns.section-homepage-right
+          = link_to 'Accueil sécurité interactif', '/elearning/', class: 'button button-work'
+        .small-12.medium-6.large-4.columns.section-homepage.background-middle
           p.title-small
-            'Modules interactifs qui
+            'Des modules interactifs pour
             br
-            'améliorent les compétences des collaborateurs
+            'améliorer les compétences des collaborateurs
+          = link_to 'Module e-learning', '/elearning/', class: 'button button-work'
+        .small-12.medium-6.large-4.columns.section-homepage.background-right
+          p.title-small
+            'Un outil intuitif pour
+            br
+            'manager et tracer les formations
           = link_to 'Solution LMS', '/work/', class: 'button button-work'

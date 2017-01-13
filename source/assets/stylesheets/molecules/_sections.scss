@@ -44,17 +44,20 @@
     background: linear-gradient(to right, rgba($purple-steroid, 0.8) 0%, rgba($purple, 0.8) 50%), image-url('call-to-action/footer.jpg');
     background-position: center center;
   }
-  .section-homepage-left {
-    background: linear-gradient(to right, rgba($purple-steroid, 0.8) 0%, rgba($purple, 0.8) 50%), image-url('call-to-action/homepage-left.jpg');
-    background-position: top center;
+  .section-homepage {
     padding-top: 2rem;
     padding-bottom: 2rem;
-  }
-  .section-homepage-right {
-    background: linear-gradient(to right, rgba($purple-steroid, 0.8) 0%, rgba($purple, 0.8) 50%), image-url('call-to-action/homepage-right.jpg');
-    background-position: center center;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    &.background-left {
+      background: linear-gradient(to right, rgba($purple-steroid, 0.8) 0%, rgba($purple, 0.8) 50%), image-url('call-to-action/homepage-left.jpg');
+      background-position: top center;
+    }
+    &.background-middle {
+      background: linear-gradient(to right, rgba($purple-steroid, 0.8) 0%, rgba($purple, 0.8) 50%), image-url('call-to-action/homepage-middle.jpg');
+    }
+    &.background-right {
+      background: linear-gradient(to right, rgba($purple-steroid, 0.8) 0%, rgba($purple, 0.8) 50%), image-url('call-to-action/homepage-right.jpg');
+      background-position: center center;
+    }
   }
 
   .title {

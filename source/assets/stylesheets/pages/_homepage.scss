@@ -1,19 +1,4 @@
-@keyframes fadeIn {
-  from { opacity: 0; }
-  to { opacity: 1; }
-}
-
 .homepage {
-  .top-bar,
-  .footer,
-  .homepage-baseline,
-  .homepage-baseline--links {
-    opacity: 0;  /* make things invisible upon start */
-    animation: fadeIn ease-in 1;
-    animation-fill-mode: forwards;
-    animation-duration: 500ms;
-    animation-delay: 2000ms;
-  }
   .homepage-baseline {
     &--title {
       h1 {
@@ -42,7 +27,6 @@
       min-height: calc(100vh - 210px);
     }
 
-    animation-delay: 500ms;
     position: relative;
     &--links {
       position: absolute;
