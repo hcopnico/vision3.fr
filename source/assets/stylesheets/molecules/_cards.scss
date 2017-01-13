@@ -20,10 +20,16 @@
 
 .expertpage {
   .card {
-    min-height: 485px;
+    @include breakpoint(medium){
+      min-height: 500px;
+    }
+    @include breakpoint(small only){
+      img {
+        max-height: 100px;
+      }
+    }
     img {
       transition: 0.4s transform;
-
     }
     &:hover {
       img {
