@@ -2,41 +2,44 @@
   name: Afton
   picture: afton.png
 -
-  name: Arcelor.png
-  picture: arcelor.png
+  name: Aperam.png
+  picture: aperam.png
 -
-  name: Astrazneca
-  picture: astrazneca.png
+  name: Caster-Cash
+  picture: cartercash.png
 -
   name: BP
   picture: bp.png
 -
-  name: coatex
-  picture: coatex.png
+  name: Danone
+  picture: danone.png
 -
-  name: DOW
-  picture: dow.png
+  name: TNT
+  picture: tnt.png
 -
   name: lhoist
   picture: lhoist.png
 -
-  name: mreal
-  picture: mreal.png
+  name: Velux
+  picture: velux.png
 -
-  name: nyrstar
-  picture: nyrstar.png
+  name: Reckitt
+  picture: reckitt.png
 -
   name: riotinto
   picture: riotinto.png
 -
-  name: schering
-  picture: schering.png
+  name: Avril
+  picture: avril.png
 -
   name: total
   picture: total.png
 -
-  name: valeo
-  picture: valeo.png
+  name: coatex
+  picture: coatex.png
+-
+  name: nyrstar
+  picture: nyrstar.png
 -
   name: you
   picture: you.png

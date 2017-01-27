@@ -28,18 +28,22 @@
   &-text-right {
     text-align: center;
     margin-top: 1rem;
+    font-size: x-small;
     @include breakpoint(medium) {
       text-align: right;
       margin-top: 0;
+      font-size: x-small;
     }
   }
   &-text-left {
     text-align: center;
+    font-size: x-small;
     a {
       justify-content: center !important;
     }
     @include breakpoint(medium) {
       text-align: left;
+      font-size: x-small;
     }
   }
 }
