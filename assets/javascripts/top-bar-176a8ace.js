@@ -1,0 +1,1 @@
+function mobileMenu(){var o=$("#js-top-bar--button"),e=$("#js-top-bar--links"),n=$("#js-open"),t=$("#js-close");o.click(function(){e.fadeToggle(300),n.toggle(),t.toggle()})}$(document).ready(function(){mobileMenu()});

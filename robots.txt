@@ -1,0 +1,4 @@
+User-Agent: *
+Allow: /
+
+Sitemap: http://www.vision3.fr/sitemap.xml
